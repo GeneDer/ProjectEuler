@@ -1,4 +1,4 @@
-##Written by Gene Der Su at 7/28/2015
+##Written by Gene Der Su at 7/29/2015
 ##Python verson 2.7.6
 
 import time
