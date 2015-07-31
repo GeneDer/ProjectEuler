@@ -7,10 +7,12 @@ import math
 
 def sumOfProperDivisors(n):
     divieorSum = 1
-    for i in range(2,int(math.ceil(math.sqrt(n)))):
+    for i in range(2,int(math.sqrt(n))+1):
         if (n%i==0):
             divieorSum+=i
-            divieorSum+=n/i
+            tempNumber=n/i
+            if (tempNumber!=i):
+                divieorSum+=tempNumber
     return divieorSum
     
 
